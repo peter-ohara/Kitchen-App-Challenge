@@ -1,55 +1,20 @@
 <ion-view view-title="This Week">
   <ion-content>
+
+    <ul>
+      <li ng-repeat="day in days"> {{ day | json }}</li>
+    </ul>
+
     <ion-list>
-      <ion-item class="item-remove-animate item-icon-right" type="item-text-wrap" href="#/tab/current/1">
-        <h2>Monday</h2>
+      <ion-item class="item-remove-animate item-icon-right" type="item-text-wrap" href="#/tab/current/{{ day.$id }}"
+      ng-repeat="day in days">
+        <h2>{{ day.name }}</h2>
         <img ng-src="img/oats.jpg" width="40px" height="40px">
         <img ng-src="img/waakye.jpg" width="40px" height="40px">
         <img ng-src="img/jollof.jpg" width="40px" height="40px">
         <i class="icon ion-chevron-right icon-accessory"></i>
       </ion-item>
-
-      <ion-item class="item-remove-animate item-icon-right" type="item-text-wrap" href="#/tab/current/2">
-        <h2>Tuesday</h2>
-        <img ng-src="img/oats.jpg" width="40px" height="40px">
-        <img ng-src="img/waakye.jpg" width="40px" height="40px">
-        <img ng-src="img/jollof.jpg" width="40px" height="40px">
-        <i class="icon ion-chevron-right icon-accessory"></i>
-      </ion-item>
-
-      <ion-item class="item-remove-animate item-icon-right" type="item-text-wrap" href="#/tab/current/3">
-        <h2>Wednesday</h2>
-        <img ng-src="img/oats.jpg" width="40px" height="40px">
-        <img ng-src="img/waakye.jpg" width="40px" height="40px">
-        <img ng-src="img/jollof.jpg" width="40px" height="40px">
-        <i class="icon ion-chevron-right icon-accessory"></i>
-      </ion-item>
-
-      <ion-item class="item-remove-animate item-icon-right" type="item-text-wrap" href="#/tab/current/4">
-        <h2>Thursday</h2>
-        <img ng-src="img/oats.jpg" width="40px" height="40px">
-        <img ng-src="img/waakye.jpg" width="40px" height="40px">
-        <img ng-src="img/jollof.jpg" width="40px" height="40px">
-        <i class="icon ion-chevron-right icon-accessory"></i>
-      </ion-item>
-
-      <ion-item class="item-remove-animate item-icon-right" type="item-text-wrap" href="#/tab/current/5">
-        <h2>Friday</h2>
-        <img ng-src="img/oats.jpg" width="40px" height="40px">
-        <img ng-src="img/waakye.jpg" width="40px" height="40px">
-        <img ng-src="img/jollof.jpg" width="40px" height="40px">
-        <i class="icon ion-chevron-right icon-accessory"></i>
-      </ion-item>
-
-      <ion-item class="item-remove-animate item-icon-right" type="item-text-wrap" href="#/tab/current/6">
-        <h2>Saturday</h2>
-        <img ng-src="img/oats.jpg" width="40px" height="40px">
-        <img ng-src="img/waakye.jpg" width="40px" height="40px">
-        <img ng-src="img/jollof.jpg" width="40px" height="40px">
-        <i class="icon ion-chevron-right icon-accessory"></i>
-      </ion-item>
-
-
     </ion-list>
+
   </ion-content>
 </ion-view>

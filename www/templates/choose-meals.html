@@ -6,88 +6,79 @@
 -->
 <ion-view view-title="{{ title }}">
   <ion-content scroll="false">
+
     <ion-slides  options="options" slider="data.slider">
+
       <ion-slide-page>
+
         <div class="row">
           <div class="col">
             <h2 class="title">Breakfast</h2>
           </div>
         </div>
+
         <div class="row">
-          <div class="col">
+          <div class="col" ng-repeat="choice in menu.breakfast">
             <div class="card">
               <div class="item item-image">
-                  <img src="img/oats.jpg">
+                  <img ng-src="img/{{ choice.img }}">
                 </div>
               <div class="item item-text-wrap">
-                <h2>Oats</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <div class="item item-image">
-                  <img src="img/coffee.jpg">
-                </div>
-              <div class="item item-text-wrap">
-                <h2>Coffee</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <h2>{{ choice.name }}</h2>
+                <p>{{ choice.description }}</p>
               </div>
             </div>
           </div>
         </div>
+
       </ion-slide-page>
+
       <ion-slide-page>
-      <div class="row">
-        <div class="col">
-          <h2 class="title">Lunch</h2>
-        </div>
-      </div>
+
         <div class="row">
           <div class="col">
-            <div class="card">
-              <div class="item item-image">
-                  <img src="img/waakye.jpg">
-                </div>
-              <div class="item item-text-wrap">
-                <h2>Waakye</h2>
-                <p>Some nice waakye with fish bi like dat</p>
-              </div>
-            </div>
+            <h2 class="title">Lunch</h2>
           </div>
-          <div class="col">
+        </div>
+
+        <div class="row">
+          <div class="col" ng-repeat="choice in menu.lunch">
             <div class="card">
               <div class="item item-image">
-                  <img src="img/spaghetti.jpg">
+                  <img ng-src="img/{{ choice.img }}">
                 </div>
               <div class="item item-text-wrap">
-                <h2>Spaghetti</h2>
-                <p>Some nice spaghetti with meatballs</p>
+                <h2>{{ choice.name }}</h2>
+                <p>{{ choice.description }}</p>
               </div>
             </div>
           </div>
         </div>
+
       </ion-slide-page>
+
       <ion-slide-page>
-      <div class="row">
-        <div class="col">
-          <h2 class="title">Supper</h2>
-        </div>
-      </div>
+
         <div class="row">
           <div class="col">
+            <h2 class="title">Supper</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col" ng-repeat="choice in menu.supper">
             <div class="card">
               <div class="item item-image">
-                  <img src="img/jollof.jpg">
+                  <img ng-src="img/{{ choice.img }}">
                 </div>
               <div class="item item-text-wrap">
-                <h2>Jollof</h2>
-                <p>Something everybody can relate with</p>
+                <h2>{{ choice.name }}</h2>
+                <p>{{ choice.description }}</p>
               </div>
             </div>
           </div>
         </div>
+        
       </ion-slide-page>
       
     </ion-slides>

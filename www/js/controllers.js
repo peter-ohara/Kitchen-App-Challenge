@@ -1,8 +1,13 @@
 angular.module('starter.controllers', [])
 
-.controller('CurrentWeekCtrl', function($scope) {})
+.controller('CurrentWeekCtrl', function($scope,  $firebaseArray) {
+  var ref = firebase.database().ref().child("currentWeek");
+  // create a synchronized array
+  // click on `index.html` above to see it used in the DOM!
+  $scope.days = $firebaseArray(ref);
+})
 
-.controller('NextWeekCtrl', function($scope, Chats) {
+.controller('NextWeekCtrl', function($scope,  $firebaseArray) {
   // With the new view caching in Ionic, Controllers are only called
   // when they are recreated or on app start, instead of every page change.
   // To listen for when this page is active (for example, to refresh data),
@@ -11,14 +16,20 @@ angular.module('starter.controllers', [])
   //$scope.$on('$ionicView.enter', function(e) {
   //});
 
-  $scope.chats = Chats.all();
-  $scope.remove = function(chat) {
-    Chats.remove(chat);
-  };
+  var ref = firebase.database().ref().child("nextWeek");
+  // create a synchronized array
+  // click on `index.html` above to see it used in the DOM!
+  $scope.days = $firebaseArray(ref);
 })
 
-.controller('SelectMealsCtrl', function($scope, $stateParams, Chats) {
-  $scope.chat = Chats.get($stateParams.chatId);
+.controller('SelectMealsCtrl', function($scope, $stateParams, $firebaseObject) {
+  
+  var ref = firebase.database().ref().child("currentWeek").child($stateParams.dayId);
+  // download the data into a local object
+  var syncObject = $firebaseObject(ref);
+  // synchronize the object with a three-way data binding
+  // click on `index.html` above to see it used in the DOM!
+  syncObject.$bindTo($scope, "menu");
 
   var days = {
     1: "Monday",
