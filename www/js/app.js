@@ -40,46 +40,47 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 
   // Each tab has its own nav history stack:
 
-  .state('tab.dash', {
-    url: '/dash',
+  .state('tab.current', {
+    url: '/current',
     views: {
-      'tab-dash': {
-        templateUrl: 'templates/tab-dash.html',
-        controller: 'DashCtrl'
+      'tab-current': {
+        templateUrl: 'templates/tab-current.html',
+        controller: 'CurrentWeekCtrl'
       }
     }
   })
-
-  .state('tab.chats', {
-      url: '/chats',
+    .state('tab.current-detail', {
+      url: '/current/:dayId',
+      // templateUrl: 'templates/choose-meals.html',
       views: {
-        'tab-chats': {
-          templateUrl: 'templates/tab-chats.html',
-          controller: 'ChatsCtrl'
-        }
-      }
-    })
-    .state('tab.chat-detail', {
-      url: '/chats/:chatId',
-      views: {
-        'tab-chats': {
-          templateUrl: 'templates/chat-detail.html',
-          controller: 'ChatDetailCtrl'
+        'tab-current': {
+          templateUrl: 'templates/choose-meals.html',
+          controller: 'SelectMealsCtrl'
         }
       }
     })
 
-  .state('tab.account', {
-    url: '/account',
-    views: {
-      'tab-account': {
-        templateUrl: 'templates/tab-account.html',
-        controller: 'AccountCtrl'
+  .state('tab.next', {
+      url: '/next',
+      views: {
+        'tab-next': {
+          templateUrl: 'templates/tab-next.html',
+          controller: 'NextWeekCtrl'
+        }
       }
-    }
-  });
+    })
+    .state('tab.next-detail', {
+      url: '/next/:dayId',
+      // templateUrl: 'templates/choose-meals.html',
+      views: {
+        'tab-next': {
+          templateUrl: 'templates/choose-meals.html',
+          controller: 'SelectMealsCtrl'
+        }
+      }
+    });
 
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/tab/dash');
+  $urlRouterProvider.otherwise('/tab/current');
 
 });
