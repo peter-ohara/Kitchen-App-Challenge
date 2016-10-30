@@ -1,1 +1,14 @@
 /* Empty. Add your own CSS if you like */
+.row h2 {font-size: 20px; margin-top: 0px; font-color: white;}
+.img-avail {height: 50px; width: 50px; float: right; border-top-left-radius: 25px;
+    border-top-right-radius: 25px; border-bottom-right-radius: 25px; border-bottom-left-radius: 25px;}
+.days {font-size: 40px;}
+.item h2 {font-size: 20px;}
+.col {padding: 0;}
+.card {margin: 4px 05px;}
+.item-image {height: 100%;}
+.margin10 {margin-top: 10px;}
+.margin40 {margin-top: 40px; text-align: center;}
+.item .item-text-wrap h2 p {text-align: center;}
+.card p {height: 80px;}
+.bakcground {width: 100%; height: 100%;}
