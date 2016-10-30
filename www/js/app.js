@@ -55,7 +55,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
       views: {
         'tab-current': {
           templateUrl: 'templates/choose-meals.html',
-          controller: 'SelectMealsCtrl'
+          controller: 'ThisWeeksDetailsCtrl'
         }
       }
     })
@@ -75,7 +75,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
       views: {
         'tab-next': {
           templateUrl: 'templates/choose-meals.html',
-          controller: 'SelectMealsCtrl'
+          controller: 'NextWeeksDetailsCtrl'
         }
       }
     });
