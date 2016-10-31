@@ -1,0 +1,415 @@
+{
+	"currentWeek" : [ 
+		{
+			"name" : "Monday",
+			"breakfast": [
+				{
+					"name" : "Oats",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+					"img" : "oats.jpg"
+				},
+				{
+					"name" : "Coffee",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+					"img" : "coffee.jpg"
+				}
+			],
+			"lunch": [
+				{
+					"name" : "Waakye",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+					"img" : "waakye.jpg"
+				},
+				{
+					"name" : "Spagetti",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+					"img" : "spaghetti.jpg"
+				}
+			],
+			"supper": [
+				{
+					"name" : "Jollof",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+					"img" : "jollof.jpg"
+				}
+			]
+		},
+		{
+			"name" : "Tuesday",
+			"breakfast": [
+				{
+					"name" : "Oats",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+					"img" : "oats.jpg"
+				},
+				{
+					"name" : "Coffee",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+					"img" : "oats.jpg"
+				}
+			],
+			"lunch": [
+				{
+					"name" : "Waakye",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+					"img" : "oats.jpg"
+				},
+				{
+					"name" : "Spagetti",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+					"img" : "oats.jpg"
+				}
+			],
+			"supper": [
+				{
+					"name" : "Jollof",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+					"img" : "oats.jpg"
+				}
+			]
+		},
+		{
+			"name" : "Wednesday",
+			"breakfast": [
+				{
+					"name" : "Oats",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+					"img" : "oats.jpg"
+				},
+				{
+					"name" : "Coffee",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+					"img" : "oats.jpg"
+				}
+			],
+			"lunch": [
+				{
+					"name" : "Waakye",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+					"img" : "oats.jpg"
+				},
+				{
+					"name" : "Spagetti",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+					"img" : "oats.jpg"
+				}
+			],
+			"supper": [
+				{
+					"name" : "Jollof",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+					"img" : "oats.jpg"
+				}
+			]
+		},
+		{
+			"name" : "Thursday",
+			"breakfast": [
+				{
+					"name" : "Oats",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+					"img" : "oats.jpg"
+				},
+				{
+					"name" : "Coffee",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+					"img" : "oats.jpg"
+				}
+			],
+			"lunch": [
+				{
+					"name" : "Waakye",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+					"img" : "oats.jpg"
+				},
+				{
+					"name" : "Spagetti",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+					"img" : "oats.jpg"
+				}
+			],
+			"supper": [
+				{
+					"name" : "Jollof",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+					"img" : "oats.jpg"
+				}
+			]
+		},
+		{
+			"name" : "Friday",
+			"breakfast": [
+				{
+					"name" : "Oats",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+					"img" : "oats.jpg"
+				},
+				{
+					"name" : "Coffee",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+					"img" : "oats.jpg"
+				}
+			],
+			"lunch": [
+				{
+					"name" : "Waakye",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+					"img" : "oats.jpg"
+				},
+				{
+					"name" : "Spagetti",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+					"img" : "oats.jpg"
+				}
+			],
+			"supper": [
+				{
+					"name" : "Jollof",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+					"img" : "oats.jpg"
+				}
+			]
+		},
+		{
+			"name" : "Saturday",
+			"breakfast": [
+				{
+					"name" : "Oats",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+					"img" : "oats.jpg"
+				},
+				{
+					"name" : "Coffee",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+					"img" : "oats.jpg"
+				}
+			],
+			"lunch": [
+				{
+					"name" : "Waakye",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+					"img" : "oats.jpg"
+				},
+				{
+					"name" : "Spagetti",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+					"img" : "oats.jpg"
+				}
+			],
+			"supper": [
+				{
+					"name" : "Jollof",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+					"img" : "oats.jpg"
+				}
+			]
+		}
+	],
+
+"nextWeek" : [ 
+	{
+		"name" : "Monday",
+		"breakfast": [
+			{
+				"name" : "Oats",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+				"img" : "oats.jpg"
+			},
+			{
+				"name" : "Coffee",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+				"img" : "coffee.jpg"
+			}
+		],
+		"lunch": [
+			{
+				"name" : "Waakye",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+				"img" : "waakye.jpg"
+			},
+			{
+				"name" : "Spagetti",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+				"img" : "spaghetti.jpg"
+			}
+		],
+		"supper": [
+			{
+				"name" : "Jollof",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+				"img" : "jollof.jpg"
+			}
+		]
+	},
+	{
+		"name" : "Tuesday",
+		"breakfast": [
+			{
+				"name" : "Oats",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+				"img" : "oats.jpg"
+			},
+			{
+				"name" : "Coffee",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+				"img" : "oats.jpg"
+			}
+		],
+		"lunch": [
+			{
+				"name" : "Waakye",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+				"img" : "oats.jpg"
+			},
+			{
+				"name" : "Spagetti",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+				"img" : "oats.jpg"
+			}
+		],
+		"supper": [
+			{
+				"name" : "Jollof",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+				"img" : "oats.jpg"
+			}
+		]
+	},
+	{
+		"name" : "Wednesday",
+		"breakfast": [
+			{
+				"name" : "Oats",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+				"img" : "oats.jpg"
+			},
+			{
+				"name" : "Coffee",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+				"img" : "oats.jpg"
+			}
+		],
+		"lunch": [
+			{
+				"name" : "Waakye",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+				"img" : "oats.jpg"
+			},
+			{
+				"name" : "Spagetti",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+				"img" : "oats.jpg"
+			}
+		],
+		"supper": [
+			{
+				"name" : "Jollof",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+				"img" : "oats.jpg"
+			}
+		]
+	},
+	{
+		"name" : "Thursday",
+		"breakfast": [
+			{
+				"name" : "Oats",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+				"img" : "oats.jpg"
+			},
+			{
+				"name" : "Coffee",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+				"img" : "oats.jpg"
+			}
+		],
+		"lunch": [
+			{
+				"name" : "Waakye",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+				"img" : "oats.jpg"
+			},
+			{
+				"name" : "Spagetti",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+				"img" : "oats.jpg"
+			}
+		],
+		"supper": [
+			{
+				"name" : "Jollof",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+				"img" : "oats.jpg"
+			}
+		]
+	},
+	{
+		"name" : "Friday",
+		"breakfast": [
+			{
+				"name" : "Oats",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+				"img" : "oats.jpg"
+			},
+			{
+				"name" : "Coffee",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+				"img" : "oats.jpg"
+			}
+		],
+		"lunch": [
+			{
+				"name" : "Waakye",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+				"img" : "oats.jpg"
+			},
+			{
+				"name" : "Spagetti",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+				"img" : "oats.jpg"
+			}
+		],
+		"supper": [
+			{
+				"name" : "Jollof",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+				"img" : "oats.jpg"
+			}
+		]
+	},
+	{
+		"name" : "Saturday",
+		"breakfast": [
+			{
+				"name" : "Oats",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+				"img" : "oats.jpg"
+			},
+			{
+				"name" : "Coffee",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+				"img" : "oats.jpg"
+			}
+		],
+		"lunch": [
+			{
+				"name" : "Waakye",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+				"img" : "oats.jpg"
+			},
+			{
+				"name" : "Spagetti",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+				"img" : "oats.jpg"
+			}
+		],
+		"supper": [
+			{
+				"name" : "Jollof",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+				"img" : "oats.jpg"
+			}
+		]
+	}
+]
+}

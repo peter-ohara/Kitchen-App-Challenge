@@ -1,8 +1,11 @@
 <ion-view view-title="Next Week">
   <ion-content>
+  
     <ion-list>
-      <ion-item class="item-remove-animate item-icon-right" type="item-text-wrap" href="#/tab/current/1">
-        <h2 class="days">Monday</h2>
+
+      <ion-item class="item-remove-animate item-icon-right" type="item-text-wrap" href="#/tab/next/{{ day.$id }}"
+      ng-repeat="day in days">
+        <h2 class="days">{{ day.name }}</h2>
       <div class="row margin10">
         <div class="col">
         <img class="img-avail" ng-src="img/question.png">
@@ -17,87 +20,7 @@
         <i class="icon ion-chevron-right icon-accessory"></i>
       </ion-item>
 
-      <ion-item class="item-remove-animate item-icon-right" type="item-text-wrap" href="#/tab/current/2">
-        <h2>Tuesday</h2>
-        <div class="row margin10">
-          <div class="col">
-          <img class="img-avail" ng-src="img/question.png">
-        </div>
-          <div class="col">
-          <img class="img-avail" ng-src="img/question.png">
-        </div>
-          <div class="col">
-          <img class="img-avail" ng-src="img/question.png">
-        </div>
-      </div>
-        <i class="icon ion-chevron-right icon-accessory"></i>
-      </ion-item>
-
-      <ion-item class="item-remove-animate item-icon-right" type="item-text-wrap" href="#/tab/current/3">
-        <h2>Wednesday</h2>
-        <div class="row margin10">
-          <div class="col">
-          <img class="img-avail" ng-src="img/question.png">
-        </div>
-          <div class="col">
-          <img class="img-avail" ng-src="img/question.png">
-        </div>
-          <div class="col">
-          <img class="img-avail" ng-src="img/question.png">
-        </div>
-      </div>
-        <i class="icon ion-chevron-right icon-accessory"></i>
-      </ion-item>
-
-      <ion-item class="item-remove-animate item-icon-right" type="item-text-wrap" href="#/tab/current/4">
-        <h2>Thursday</h2>
-        <div class="row margin10">
-          <div class="col">
-          <img class="img-avail" ng-src="img/question.png">
-        </div>
-          <div class="col">
-          <img class="img-avail" ng-src="img/question.png">
-        </div>
-          <div class="col">
-          <img class="img-avail" ng-src="img/question.png">
-        </div>
-      </div>
-        <i class="icon ion-chevron-right icon-accessory"></i>
-      </ion-item>
-
-      <ion-item class="item-remove-animate item-icon-right" type="item-text-wrap" href="#/tab/current/5">
-        <h2>Friday</h2>
-        <div class="row margin10">
-          <div class="col">
-          <img class="img-avail" ng-src="img/question.png"><br/>
-        </div>
-          <div class="col">
-          <img class="img-avail" ng-src="img/question.png">
-        </div>
-          <div class="col">
-          <img class="img-avail" ng-src="img/question.png">
-        </div>
-      </div>
-        <i class="icon ion-chevron-right icon-accessory"></i>
-      </ion-item>
-
-      <ion-item class="item-remove-animate item-icon-right" type="item-text-wrap" href="#/tab/current/6">
-        <h2>Saturday</h2>
-        <div class="row margin10">
-          <div class="col">
-          <img class="img-avail" ng-src="img/question.png">
-        </div>
-          <div class="col">
-          <img class="img-avail" ng-src="img/question.png">
-        </div>
-          <div class="col">
-          <img class="img-avail" ng-src="img/question.png">
-        </div>
-      </div>
-        <i class="icon ion-chevron-right icon-accessory"></i>
-      </ion-item>
-
-
     </ion-list>
+
   </ion-content>
 </ion-view>
